@@ -1,8 +1,14 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import HighLight from "./components/HighLight";
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello</h1>
-    </>
+    <main className="bg-black">
+      <Navbar />
+      <Hero />
+      <HighLight />
+    </main>
   );
 }
 
